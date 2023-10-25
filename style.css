@@ -65,8 +65,28 @@ header{
     align-items: center;
     margin-top: 2%;
 }
-@media (min-width: 600px) {
+@media only screen and (max-width: 600px) {
     .facet_sidebar {
       display: none;
     }
-  }
+    h1{
+        font-size: 25px;
+    }
+    p{
+        font-size: 15px;      
+    }
+}
+.imagem-mobile{
+    display: none;
+}
+@media (max-width: 600px) {
+    .imagem-mobile{
+        display: flex;
+        max-width: 25%;
+    }
+}
+.img-mobile{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
