@@ -82,7 +82,7 @@ header{
 @media (max-width: 600px) {
     .imagem-mobile{
         display: flex;
-        max-width: 25%;
+        max-width: 50%;
     }
 }
 .img-mobile{
