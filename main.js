@@ -13,9 +13,9 @@ alert  (v1)
 myImage.addEventListener("click",()=>{
 	console.log("clicou")
 	
-	if (currentImage === "images/print-codigo.png") {
-		myImage.src = currentImage = "images/gif-do-codigo.gif"
-	} else {
+	if (currentImage === "images/gif-do-codigo.gif") {
 		myImage.src = currentImage = "images/print-codigo.png"
+	} else {
+		myImage.src = currentImage = "images/gif-do-codigo.gif"
 	}
 })
